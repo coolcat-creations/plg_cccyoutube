@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content">
+	<name>Content - CCC Youtube</name>
+	<author>Elisa Foltyn</author>
+	<creationDate>23.04.18</creationDate>
+	<copyright>(C) Elisa Foltyn - COOLCAT creations. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>joomla@coolcat-creations.com</authorEmail>
+	<authorUrl>www.coolcat-creations.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CCCYOUTUBE_XML_DESCRIPTION</description>
+	<updateservers>
+		<server type="extension" priority="1" name="CCC Youtube Plugin Update Server"></server>
+	</updateservers>
+	<files>
+		<filename plugin="cccyoutube">cccyoutube.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<media destination="plg_cccyoutube" folder="media" >
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
