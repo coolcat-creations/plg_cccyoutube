@@ -44,7 +44,7 @@ class PlgContentCccyoutube extends CMSPlugin
 		return true;
 	}
 
-	protected function youtubeToVideo(&$text, &$params)
+	protected function youtubeToVideo(&$text)
 	{
 
 
